@@ -7,7 +7,7 @@ $(document).ready(function() {
     let newArray = [];
 
     sentenceArray.forEach(function(element) {
-      return newArray = element.length >= 3;
+      newArray = element.length >= 3;
     });
 
     $("#hidden").show();
