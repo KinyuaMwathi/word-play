@@ -15,12 +15,23 @@
     <div class="card">
       <div class="card-body">
         <h2 class="card-title">Select the items that you want to purchase.</h2>
+        <form id="wordPlayForm">
+          <div class="form-group">
+            <label for="inputSentence">Write a sentence</label>
+            <input id="inputSentence" class="form-control" type="text" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
+    </div>
+    <div id="hidden">
+      <p id="output"></p>
     </div>
   </div>
   <div class="container-fluid container02">
     <div class="footer">
-      <p><span id="footerText">&copy; 2021 Groceries Store</span></p>
+      <p id="footerText">&copy; 2021 Groceries Store</p>
     </div>
   </div>
 </body>
